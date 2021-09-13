@@ -14,14 +14,15 @@ namespace ThuHuong_Tuan02
             Console.OutputEncoding = Encoding.UTF8;
             //Kết quả : 
             Program p = new Program();
-            //p.XepLoaiDiemTB();
-            //p.XuatSoNgayThang();
-            //p.BaiO6();
-            //p.Bai07();
-            //p.Bai08();
-            //p.Bai09();
-            //p.Bai10();
+            p.XepLoaiDiemTB();
+            p.XuatSoNgayThang();
+            p.BaiO6();
+            p.Bai07();
+            p.Bai08();
+            p.Bai09();
+            p.Bai10();
             p.Bai11();
+            p.Bai12();
             Console.ReadKey();
         }
 
@@ -133,6 +134,7 @@ namespace ThuHuong_Tuan02
 
             table.Rows.Add(kq);
             table.Write(Format.Alternative);
+            Console.Write("\n\n\n");
         }
         private void Bai08()
         {
@@ -159,10 +161,10 @@ namespace ThuHuong_Tuan02
             Console.WriteLine("Nhập số giờ đổ xe : ");
             double sogio = Convert.ToDouble(Console.ReadLine());
             if (sogio<=3.0)
-                Console.WriteLine("Số tiền đổ xe của khách hàng: 40000");
+                Console.WriteLine("Số tiền đổ xe của khách hàng: 40000\n\n\n");
             else if (sogio >= 24.0)
-                Console.WriteLine("Số tiền đổ xe của khách hàng: 200000");
-            else Console.WriteLine("Số tiền đổ xe của khách hàng: {0}", (sogio - 3)*10000 + 40000);
+                Console.WriteLine("Số tiền đổ xe của khách hàng: 200000\n\n\n");
+            else Console.WriteLine("Số tiền đổ xe của khách hàng: {0}\n\n\n", (sogio - 3)*10000 + 40000);
         }
         
         private void Bai10()
@@ -249,8 +251,94 @@ namespace ThuHuong_Tuan02
                 
             Console.WriteLine("--------------------------------------------------------------------------");
             Console.WriteLine("--------------------------------------------------------------------------");
-            Console.WriteLine("Cộng {0,5} {1,48}", luongmb, thanhtien);
+            Console.WriteLine("Cộng {0,5} {1,48}\n\n\n", luongmb, thanhtien);
         }
 
+        private void Bai12()
+        {
+            /*Bài 12 : Viết chương trình tính can chi dựa vào năm cho trước */
+            Console.WriteLine("---------------------ThuHuong - Bai 11--------------------- ");
+            Console.WriteLine("Mời bạn nhập năm cần tính can chi: ");
+            short namsinh = short.Parse(Console.ReadLine());
+            
+            //Xử lý
+            string can = "";
+            switch (namsinh % 10)
+            {
+                case 0:
+                    can = "CANH";
+                    break;
+                case 1:
+                    can = "TÂN";
+                    break;
+                case 2:
+                    can = "NHÂM";
+                    break;
+                case 3:
+                    can = "QUÝ";
+                    break;
+                case 4:
+                    can = "GIÁP";
+                    break;
+                case 5:
+                    can = "ẤT";
+                    break;
+                case 6:
+                    can = "BÍNH";
+                    break;
+                case 7:
+                    can = "ĐINH";
+                    break;
+                case 8:
+                    can = "MẬU";
+                    break;
+                case 9:
+                    can = "KỶ";
+                    break;
+            }
+            string chi = "";
+            switch (namsinh % 12)
+            {
+                case 0:
+                    chi = "THÂN";
+                    break;
+                case 1:
+                    chi = "DẬU";
+                    break;
+                case 2:
+                    chi = "TUẤT";
+                    break;
+                case 3:
+                    chi = "HỢI";
+                    break;
+                case 4:
+                    chi = "TÝ";
+                    break;
+                case 5:
+                    chi = "SỬU";
+                    break;
+                case 6:
+                    chi = "DẦN";
+                    break;
+                case 7:
+                    chi = "MẸO";
+                    break;
+                case 8:
+                    chi = "THÌN";
+                    break;
+                case 9:
+                    chi = "TỴ";
+                    break;
+                case 10:
+                    chi = "NGỌ";
+                    break;
+                case 11:
+                    chi = "MÙI";
+                    break;
+            }
+
+            //Xuất KQ 
+            Console.WriteLine("==> Năm sinh {0} của bạn là năm: {1} {2}",namsinh ,can, chi);
+        }
     }
 }
