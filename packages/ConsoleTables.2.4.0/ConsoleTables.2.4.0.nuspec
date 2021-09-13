@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ConsoleTables</id>
+    <version>2.4.0</version>
+    <title>ConsoleTables</title>
+    <authors>khalidabuhakmeh</authors>
+    <owners>khalidabuhakmeh</owners>
+    <licenseUrl>https://www.nuget.org/packages/ConsoleTables/2.4.0/license</licenseUrl>
+    <projectUrl>https://github.com/khalidabuhakmeh/ConsoleTables</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allows you to print out objects in a table view in a console application. Should be helpful for the diehard console fans.</description>
+    <summary />
+    <releaseNotes>Add AppVeyor build and MinVer versioning</releaseNotes>
+    <copyright>Copyright © Khalid Abuhakmeh 2019</copyright>
+    <tags>consoletables consoletable console table output</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework="Unsupported0.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.3.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

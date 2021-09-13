@@ -1,0 +1,10 @@
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan02\bin\Debug\ThuHuong_Tuan02.exe.config
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan02\obj\Debug\ThuHuong_Tuan02.csprojResolveAssemblyReference.cache
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan02\obj\Debug\Interop.MMC20.dll
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan02\obj\Debug\ThuHuong_Tuan02.csproj.ResolveComReference.cache
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan02\bin\Debug\ThuHuong_Tuan02.exe
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan02\bin\Debug\ThuHuong_Tuan02.pdb
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan02\obj\Debug\ThuHuong_Tuan02.exe
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan02\obj\Debug\ThuHuong_Tuan02.pdb
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan02\bin\Debug\ConsoleTables.dll
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan02\bin\Debug\ConsoleTables.pdb

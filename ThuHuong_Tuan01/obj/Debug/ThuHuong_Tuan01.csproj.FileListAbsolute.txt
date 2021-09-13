@@ -1,0 +1,8 @@
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan01\bin\Debug\ThuHuong_Tuan01.exe.config
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan01\obj\Debug\ThuHuong_Tuan01.csprojResolveAssemblyReference.cache
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan01\bin\Debug\ThuHuong_Tuan01.exe
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan01\bin\Debug\ThuHuong_Tuan01.pdb
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan01\obj\Debug\ThuHuong_Tuan01.exe
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan01\obj\Debug\ThuHuong_Tuan01.pdb
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan01\bin\Debug\ConsoleTables.dll
+F:\ThuHuong_HCMUTE\ThuHuong_20810023\ThuHuong_Tuan01\bin\Debug\ConsoleTables.pdb
